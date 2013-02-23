@@ -1,0 +1,103 @@
+body, input, textarea, select {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+    color: #669;
+    line-height: 1.6em;
+}
+a{
+    color: #6078BF;
+}
+
+.header{
+    color: #6078BF;
+}
+
+table
+{
+	background: #fff;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+
+tbody td
+{
+	border-bottom: 1px solid #ccc;
+	padding: 6px 8px;
+}
+
+th a
+{
+    text-decoration: none;
+}
+
+tfoot{
+    border-collapse: collapse;
+    font-weight:  bold;
+    
+}
+
+tfoot td{
+    border-bottom: 1px solid #ccc;
+    padding:  0;
+}
+
+._60{
+    width:  60px;
+    padding: 6px 8px;
+}
+
+._90{
+    width:  90px;
+    padding: 6px 8px;
+}
+._150{
+    width: 198px;
+    padding-left: 6px;
+}
+
+._220{
+    width:  220px;
+    padding-left: 6px;
+}
+
+
+
+.alternate{
+    background: #e6f4ff;
+}
+
+.selected{
+    background: #ffff99;
+}
+
+.highlight{
+    background: #ffff99;
+}
+
+.clickable{
+    cursor: pointer;
+    background: #ffff99;
+}
+
+#gridContainer{
+    margin: 45px;
+}
+
+#grid{
+    width: 880px;
+}
+
+#excel, #pdf{
+    float: right;
+    margin-top: 3px;
+    margin-left: 20px;
+}
